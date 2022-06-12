@@ -4,6 +4,9 @@ import styles from './navbarMenu.module.css';
 
 import { items } from "./items";
 
+const isActive = ({ isActive }) =>
+  isActive ? `${styles.navLink} ${styles.linkActive }` : `${styles.navLink}`;
+
 const NavbarMenu = ({ isLogin }) => {
     const menuItems = items.filter(item => item.private === isLogin);
     const elements = menuItems.map(({ id, to, text }) => (
