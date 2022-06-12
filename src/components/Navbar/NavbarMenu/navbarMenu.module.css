@@ -1,0 +1,36 @@
+.list {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 0 20px 0;
+  background-color: rgb(84, 0, 0);
+}
+
+.item {
+  text-align: center;
+  width: 120px;
+
+  padding: 0px 20px;
+}
+.item + .item {
+  margin-left: 20px;
+}
+
+.navLink {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 15px;
+  color: #fff;
+}
+
+.linkActive {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 15px;
+  background-color: rgb(158, 0, 0);
+  color: #fff;
+}
+
+.tr {
+  display: flex;
+  align-items: center;
+}
