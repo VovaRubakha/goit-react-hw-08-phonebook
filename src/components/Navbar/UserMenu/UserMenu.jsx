@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux';
 
 import { logout } from '../../../redux/user/user-operations';
 
-import { getUser } from 'redux/user/user-selector'
+import { getUser } from '../../../redux/user/user-selector'
 
 import styles from './userMenu.module.css'
 
