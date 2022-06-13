@@ -67,7 +67,7 @@ const RegisterForm = ({onSubmit}) => {
                             placeholder="Password"
                         />
                     </div>
-                    <button className={style.btn} type="submit">Register</button>
+                    <button className={style.button} type="submit">Register</button>
                 </form>
             </div>
     )
